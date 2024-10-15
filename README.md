@@ -1,4 +1,5 @@
-#void CMy7View::OnDraw(CDC* pDC)
+# 수정한 부분
+void CMy7View::OnDraw(CDC* pDC)
 {
     CMy7Doc* pDoc = GetDocument();
     ASSERT_VALID(pDoc);
